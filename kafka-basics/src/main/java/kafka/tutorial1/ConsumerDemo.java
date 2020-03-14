@@ -21,6 +21,7 @@ public class ConsumerDemo {
         String bootstrapServers = "127.0.0.1:9092";
         String groupId = "my-fourth-application";
         String topic = "first_topic";
+        String test = "test";
 
         // create consumer configs
         Properties properties = new Properties();
